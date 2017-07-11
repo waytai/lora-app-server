@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # map GOARCH to ARCH
+GOARCH="adm64"  #example
 case $GOARCH in
 	'amd64') ARCH="x86_64"
 		;;
